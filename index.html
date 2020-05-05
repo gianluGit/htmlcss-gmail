@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Gmail</title>
+  </head>
+  <body>
+    <div id="container">
+      <!-- inizio header: logo e barra di ricerca -->
+      <header>
+        <img src="img/gmail.png" alt="logo gmail">
+        <span class="text-logo">Gmail</span>
+        <hr>
+
+        <div class="search-bar">
+          <input type="text" name="Ricerca mail" placeholder="Search">
+          <button type="button" name="button">VAI</button>
+        </div>
+
+        <div class="text-unread">
+          You have <span id="unread-number">30</span> unread
+        </div>
+      </header>
+      <!-- fine header -->
+
+      <!-- inizio contenuto principale-->
+      <main>
+        <hr>
+        <div id="mail-container">
+          <div class="read">
+            <input type="checkbox" name="mark as read">
+            <span>&#9733;</span>
+            <span><strong>Oggetto della mail</strong></span>
+            <span class="mail-text">-testo della mail</span>
+          </div>
+
+          <div class="unread">
+            <input type="checkbox" name="mark as read">
+            <span>&#9733;</span>
+            <span><strong>Oggetto della mail</strong></span>
+            <span class="mail-text">-testo della mail</span>
+          </div>
+
+          <div class="read">
+            <input type="checkbox" name="mark as read">
+            <span>&#9733;</span>
+            <span><strong>Oggetto della mail</strong></span>
+            <span class="mail-text">-testo della mail</span>
+          </div>
+
+          <div class="read">
+            <input type="checkbox" name="mark as read">
+            <span>&#9733;</span>
+            <span><strong>Oggetto della mail</strong></span>
+            <span class="mail-text">-testo della mail</span>
+          </div>
+        </div>
+        <hr>
+      </main>
+      <!-- fine contenuto principale -->
+
+      <footer>
+        <span id="text-gmail-footer">GMail</span> <span id="text-footer">powered by Gianluca</span>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/sfondo.png);
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+}
+
+/* inizio header */
+.text-logo {
+  font-size: 20px;
+  color: white;
+}
+
+img {
+  height: 100px;
+  vertical-align: middle;
+}
+
+.search-bar {
+  margin-top: 5px;
+}
+
+.text-unread {
+  font-size: 20px;
+  margin-top: 15px;
+  color: white;
+}
+
+#unread-number {
+  background-color: orange;
+  border-radius: 20px;
+  padding: 10px;
+}
+/* fine header */
+
+
+/* inizio main */
+main {
+  margin-top: 20px;
+}
+
+#mail-container {
+  margin: 10px 0;
+}
+
+.read {
+  background-color: grey;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.unread {
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.mail-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* fine mian */
+
+
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#text-gmail-footer {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#text-footer {
+  font-style: italic;
+}
