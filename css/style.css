@@ -51,16 +51,17 @@ main {
   margin: 10px 0;
 }
 
-.read {
-  background-color: grey;
+.mail {
   border: 1px solid black;
   padding: 5px;
 }
 
+.read {
+  background-color: grey;
+}
+
 .unread {
   background-color: lightgrey;
-  border: 1px solid black;
-  padding: 5px;
 }
 
 .mail-text {
